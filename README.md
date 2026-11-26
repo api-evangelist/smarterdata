@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Smarter Data is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://smarterdata.ai
+Smarter Data provides a US local business data API and Managed Content Platform (MCP) offering access to over 30 million U.S. local businesses. Users can query businesses by industry, location, and retrieve detailed records including address, phone, website, and contact names. The service includes additional tools such as email verification, domain scraping, and skip‑trace capabilities, all billed per‑record with free credits on sign‑up. Documentation, pricing, and support are publicly available.
+
+**Areas:** Data · API · Business · US · Local
+
+## Smarter Data on APIs.io
+
+Everything profiled for Smarter Data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/smarterdata/](https://apis.io/providers/smarterdata/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Smarter Data Account API](https://apis.io/apis/smarterdata/smarterdata-account-api/) — Balance, usage, your list and credit packs.
+- [Smarter Data Companies API](https://apis.io/apis/smarterdata/smarterdata-companies-api/) — Search and read company records.
+- [Smarter Data Contacts API](https://apis.io/apis/smarterdata/smarterdata-contacts-api/) — Named contacts, and any reachable contact on request.
+- [Smarter Data Live API](https://apis.io/apis/smarterdata/smarterdata-live-api/) — Real-time map listings and web search.
+- [Smarter Data Size API](https://apis.io/apis/smarterdata/smarterdata-size-api/) — Free counts and the schema.
+- [Smarter Data Verify and crawl API](https://apis.io/apis/smarterdata/smarterdata-verify-and-crawl-api/) — Email verification and fresh website crawls (jobs).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Smarter Data Agentic Access](https://apis.io/agentic-access/smarterdata/smarterdata-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [EmailVerification](https://apis.io/schemas/smarterdata/smarterdata-email-verification/)
+- [Envelope](https://apis.io/schemas/smarterdata/smarterdata-envelope/)
+- [Job](https://apis.io/schemas/smarterdata/smarterdata-job/)
+- [LiveList](https://apis.io/schemas/smarterdata/smarterdata-live-list/)
+- [Schema](https://apis.io/schemas/smarterdata/smarterdata-schema/)
+- [Usage](https://apis.io/schemas/smarterdata/smarterdata-usage/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Smarterdata Context](https://apis.io/jsonld/smarterdata/smarterdata-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Smarter Data API Rules](https://apis.io/rules/smarterdata/smarterdata-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Smarter Data Authentication](https://apis.io/security/smarterdata/smarterdata-authentication/)
+- [Smarter Data Domain Security](https://apis.io/security/smarterdata/smarterdata-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Smarter Data Plans Pricing](https://apis.io/plans/smarterdata/smarterdata-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://smarterdata.ai)
+- [Documentation](https://smarterdata.ai/docs/)
+- [Getting started](https://smarterdata.ai/docs/#quickstart)
+- [API reference](https://smarterdata.ai/docs/)
+- [Pricing](https://smarterdata.ai/pricing/)
+- [Changelog](https://smarterdata.ai/changelog/)
+- [Terms of service](https://smarterdata.ai/legal/terms.html)
+- [Privacy policy](https://smarterdata.ai/legal/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 55.4** — strong · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 48.5 |
+
+**Agent readiness 39.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/smarterdata/](https://apis.io/providers/smarterdata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Smarter Data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/smarterdata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
